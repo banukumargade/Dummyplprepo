@@ -1,6 +1,8 @@
 package com.cg.spring.plpmod20.beans;
 
-import java.util.Date;
+
+
+import java.sql.Date;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

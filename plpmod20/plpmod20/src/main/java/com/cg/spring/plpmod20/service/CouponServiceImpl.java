@@ -14,16 +14,14 @@ public class CouponServiceImpl implements CouponService{
 	
 	@Override
 	public int addCoupon(Coupons p) {
-		
 		repo.save(p);
 		return 1;
-		
 	}
 
 	@Override
-	public void displayCoupon() {
+	public Iterable<Coupons> displayCoupon() {
 		
-		repo.findAll();
+		return repo.findAll();
 		
 	}
 
